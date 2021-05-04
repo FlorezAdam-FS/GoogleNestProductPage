@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Nest Product Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+<div id="home" class="hero">
+    <div id="nav" class="nav">
+        <a href="" class="logo"><img src="./images/google-logo.svg" alt=""></a>
+        <div id="nav-items">
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#features">features</a></li>
+                <li><a href="#gallery">gallery</a></li>
+                <li><a class="purchase"
+                       href="https://store.google.com/us/config/nest_learning_thermostat_3rd_gen?hl=en-US">purchase
+                </a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="hero-container">
+        <div class="hero-text">
+            <h1>Saving energy is a beautiful thing.</h1>
+            <p>Meet the 3rd gen Nest Learning Thermostat. It has new rings and a big, sharp display. And it saves energy. That’s the most beautiful part.</p>
+            <a class="purchase"
+               href="https://store.google.com/us/config/nest_learning_thermostat_3rd_gen?hl=en-US">purchase
+                now</a>
+        </div>
+        <img class="hero-image" src="./images/colors.png" alt="">
+    </div>
+
+<div id="weather-card"></div>
+
+</div>
+<div id="features" class="features">
+    <h2>Features</h2>
+    <div class="cards-container">
+        <div class="card">
+            <ion-icon name="flame-outline"></ion-icon>
+            <h3>Programs itself.</h3>
+            <p>The Nest Learning Thermostat is the first thermostat to get ENERGY STAR certified. It learns what
+                temperature you like and builds a schedule around yours.
+            </p>
+            <a href="https://store.google.com/us/product/nest_learning_thermostat_3rd_gen?hl=en-US">learn more</a>
+        </div>
+        <div class="card">
+            <ion-icon name="leaf-outline"></ion-icon>
+            <h3>Follow the Leaf.</h3>
+            <p>Change the temperature to save energy and be rewarded with a Leaf. The Leaf learns how to help you save, so it appears at different temperatures for different families.</p>
+            <a href="https://store.google.com/us/product/nest_learning_thermostat_3rd_gen?hl=en-US">learn more</a>
+        </div>
+        <div class="card">
+            <ion-icon name="home-outline"></ion-icon>
+            <h3>Know you're safe.</h3>
+            <p>The Nest Learning Thermostat is just one part of your HVAC system. But it can keep an
+                eye on the rest of it. You’ll get an alert on your phone if there’s something wrong!</p>
+            <a href="https://store.google.com/us/product/nest_learning_thermostat_3rd_gen?hl=en-US">learn more</a>
+        </div>
+    </div>
+</div>
+    <div id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <div id="gallery-grid">
+            
+        </div>
+    </div>
+</div>
+<div id="overlay-background">
+    <div id="overlay">
+        <h1>Sign up for our Newsletter</h1>
+        <p>Get the Latest updates on the Google Nest and other Smart home devices google has to offer!</p>
+        <input type="text" id="name" placeholder="Name">
+        <input type="email" id="email" placeholder="Email">
+        <input type="submit" id="submit"></input>
+        <div id="close"><ion-icon name="close-outline"></ion-icon></div>
+    </div>
+</div>
+
+    
+<button id="top" class="hidden"><ion-icon  name="chevron-up-circle-outline"></ion-icon></button>
+<script src="script.js"></script>
+</body>
+</html>
